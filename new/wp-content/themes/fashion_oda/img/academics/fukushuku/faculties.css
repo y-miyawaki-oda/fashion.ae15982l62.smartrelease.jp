@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+/* sec_ttl
+--------------------------------*/
+.sec_ttl_bg.collaboration{
+	background-image: url(../img/faculties/collaboration/ttl_bg_pc.jpg);
+}
+@media screen and (max-width: 767px) {
+	.sec_ttl_bg.collaboration{
+		background-image: url(../img/faculties/collaboration/ttl_bg_sp.jpg);
+	}
+}
+
+/* collaboration
+--------------------------------*/
+.sec_collaboration .ttl_28 {
+	padding-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+	.sec_collaboration .ttl_28 {
+		font-size: 4vw;
+		line-height: 1.8;
+	}
+	.sec_collaboration .img {
+		margin-bottom: 4.8vw;
+	}
+}
+
+/* department_learn
+--------------------------------*/
+.sec_department_learn .clm {
+	padding-bottom: 60px;
+	margin-bottom: 60px;
+	border-bottom: dotted 1px #a2a2a2;
+}
+.sec_department_learn .clm:last-child {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-bottom: none;
+}
+.sec_department_learn .clm h4 {
+	text-align: center;
+	font-size: 2.8rem;
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+.sec_department_learn .clm .grid2 .works_box {
+	margin-top: 35px;
+	background-color: #f7f7f7;
+	padding: 25px 20px;
+}
+.sec_department_learn .clm .grid2 .works_box .ttl {
+	font-size: 2.2rem;
+	font-weight: bold;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.sec_department_learn .clm .grid2 .works_box .detail {
+	font-size: 1.3rem;
+}
+@media screen and (max-width: 767px) {
+
+}
+
+/* department_voice
+--------------------------------*/
+.sec_department_voice h4 {
+	font-size: 2.8rem;
+	font-weight: bold;
+	padding-bottom: 26px;
+}
+.sec_department_voice .img {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.sec_department_voice .name {
+	font-size: 2.4rem;
+	font-weight: bold;
+	padding-bottom: 25px;
+	text-align: center;
+}
+.sec_department_voice .txt {
+	text-align: center;
+}
+@media screen and (max-width: 767px) {
+
+}
+
+/* department_course
+--------------------------------*/
+.sec_department_course .list .ttl {
+	font-size: 2.0rem;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+	margin-bottom: 20px;
+	background-color: #e5e5e5;
+}
+@media screen and (min-width: 768px) {
+	.sec_department_course .list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.sec_department_course .list li {
+		width: 50%;
+	}
+	.sec_department_course .list li:nth-child(odd) {
+		padding-right: 1.6%;
+	}
+	.sec_department_course .list li:nth-child(even) {
+		padding-left: 1.6%;
+	}
+	.sec_department_course .list li {
+		border-bottom: solid 1px #a2a2a2;
+		padding-bottom: 60px;
+		margin-bottom: 40px;
+	}
+	.sec_department_course .list li:nth-last-of-type(-n+1) {
+		border-bottom: none;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+}
+@media screen and (max-width: 767px) {
+	.sec_department_course .list li {
+		margin-bottom: 10%;
+	}
+	.sec_department_course .list li:last-child {
+		margin-bottom: 0;
+	}
+}
+
+/* department_timetable
+--------------------------------*/
+.sec_department_timetable .clm {
+	padding-bottom: 60px;
+	margin-bottom: 60px;
+	border-bottom: dotted 1px #a2a2a2;
+}
+.sec_department_timetable .clm:last-child {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-bottom: none;
+}
+.sec_department_timetable .clm h4 {
+	font-size: 2.8rem;
+	font-weight: bold;
+	padding-bottom: 25px;
+}
+.sec_department_timetable .clm .txt {
+	text-align: center;
+	padding-bottom: 35px;
+}
+.sec_department_timetable .clm .table_type1 table thead .none,
+.sec_department_timetable .clm .table_type1 table tbody th {
+	 width: 65px;
+}
+.sec_department_timetable .clm .table_type1 table tbody th,
+.sec_department_timetable .clm .table_type1 table tbody td {
+	text-align: center;
+	vertical-align: middle;
+}
+.sec_department_timetable .clm .table_type1 table thead th {
+	background-color: #95d0c2;
+}

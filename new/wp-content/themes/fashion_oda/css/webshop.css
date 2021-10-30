@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* shop
+--------------------------------*/
+.sec_shop .clm_shop:nth-child(n+2) {
+	padding-top: 56px;
+	margin-top: 56px;
+	position: relative;
+}
+.sec_shop .clm_shop:nth-child(n+2)::after {
+	content: '';
+	width: 94%;
+	height: 1px;
+	max-width: 1020px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom: dotted 1px #a2a2a2;
+}
+.sec_shop .clm_shop .txt_box .ttl a {
+	font-size: 2.2rem;
+	font-weight: bold;
+	color: #95d0c2;
+	text-decoration: underline;
+}
+@media screen and (max-width: 767px) {
+	.sec_shop .clm_shop:nth-child(n+2) {
+		padding-top: 11%;
+		margin-top: 11%;
+	}
+	.sec_shop .clm_shop:nth-child(n+2)::after {
+		width: 100%;
+		max-width: none;
+	}
+	.sec_shop .clm_shop .txt_box {
+		margin-top: 8%;
+	}
+	.sec_shop .clm_shop .txt_box .ttl a {
+		font-size: 4vw;
+	}
+}

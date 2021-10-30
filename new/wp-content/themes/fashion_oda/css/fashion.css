@@ -1,0 +1,375 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd,
+table, th, td, img, form, caption {
+	font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+input, button, textarea, select {
+	font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+@media all and (-ms-high-contrast: none) {
+	body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd,
+table, th, td, img, form, caption,
+input, button, textarea, select {
+		font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Arial, Verdana, sans-serif;
+	}
+}
+/* フォント
+--------------------------------*/
+.text-notes::before {
+	color: #95D0C2;
+}
+
+.text-block-school {
+	background: rgba(149, 208, 194, 0.4);
+}
+
+/* section
+--------------------------------*/
+.sec_contents a {
+	color: #95D0C2;
+}
+
+/* 見出し
+--------------------------------*/
+.sec_contents h1::before {
+	background: #95D0C2;
+}
+.sec_contents h2 {
+	border-top-color: #95D0C2;
+	border-bottom-color: #95D0C2;
+}
+.sec_contents h3 span {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(85%, transparent), color-stop(85%, #95D0C2)) 0 -5px;
+	background: linear-gradient(transparent 85%, #95D0C2 85%) 0 -5px;
+}
+
+.container .headline-1-1::before {
+	background: #95D0C2;
+}
+.container .headline-2-1 {
+	border-top-color: #95D0C2;
+	border-bottom-color: #95D0C2;
+}
+.container .headline-2-2::before {
+	background: #95D0C2;
+}
+.container .headline-2-3 {
+	border-bottom-color: #95D0C2;
+}
+.container .headline-3-1 span {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(85%, transparent), color-stop(85%, #95D0C2)) 0 -5px;
+	background: linear-gradient(transparent 85%, #95D0C2 85%) 0 -5px;
+}
+.container .tag-headline-3-1 span {
+	background: #95D0C2;
+}
+.container .headline-3-3 {
+	background: #95D0C2;
+	-webkit-box-shadow: 0px 0px 0px 5px #95D0C2;
+	        box-shadow: 0px 0px 0px 5px #95D0C2;
+}
+.container .headline-3-3::after {
+	border-color: #95D0C2 #fff #95D0C2;
+}
+.container .headline-4-2::before {
+	background: #95D0C2;
+}
+
+@media screen and (max-width: 767px) {
+	.sec_contents h3 span {
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(85%, transparent), color-stop(85%, #95D0C2)) 0 0;
+		background: linear-gradient(transparent 85%, #95D0C2 85%) 0 0;
+	}
+
+	.container .headline-3-1 span {
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(85%, transparent), color-stop(85%, #95D0C2)) 0 0;
+		background: linear-gradient(transparent 85%, #95D0C2 85%) 0 0;
+	}
+}
+/* ブロック
+--------------------------------*/
+.block-line {
+	border-color: rgba(149, 208, 194, 0.4);
+}
+
+.block-bg100 {
+	background: rgba(149, 208, 194, 0.4);
+}
+
+.block-gray-line-headline {
+	background: rgba(149, 208, 194, 0.4);
+}
+
+/* リスト
+--------------------------------*/
+.sec_contents ul > li:before {
+	color: #95D0C2;
+}
+.sec_contents ol > li::before {
+	color: #95D0C2;
+}
+
+/* 画像
+--------------------------------*/
+.image-bg-line .image::before {
+	border-color: #95D0C2;
+}
+
+/* ボタン
+--------------------------------*/
+.btn-black a,
+.btn-white a,
+.btn-school a {
+	color: #fff;
+}
+
+.btn-white a {
+	color: #191919;
+}
+
+.btn-arw a {
+	color: #fff;
+}
+.btn-arw a::before {
+	background-color: #95D0C2;
+}
+
+.btn-fashion a {
+	color: #191919;
+}
+
+.btn-kimono a {
+	color: #191919;
+}
+
+.btn-seika a {
+	color: #191919;
+}
+
+.btn-houjin a {
+	color: #191919;
+}
+
+.anchor-link-1 a {
+	color: #191919;
+	background-color: #95D0C2;
+}
+
+.anchor-link-2 a {
+	color: #191919;
+	background-color: #95D0C2;
+}
+
+/* pagination
+--------------------------------*/
+.pagination-list li a.this,
+.pagination-single li a.this {
+	background-color: #95D0C2;
+}
+
+/* 表
+--------------------------------*/
+.table-1 table th {
+	background: rgba(149, 208, 194, 0.4);
+}
+
+.table-2 table th {
+	background: rgba(149, 208, 194, 0.4);
+}
+.table-2 table thead th {
+	background: #95D0C2;
+}
+
+.table-3 table th {
+	background: rgba(149, 208, 194, 0.4);
+}
+.table-3 table thead th {
+	background: #95D0C2;
+}
+
+.table-4 table th {
+	background: rgba(149, 208, 194, 0.4);
+}
+.table-4 table tr:first-child th {
+	background: #95D0C2;
+}
+
+.table-5 table th {
+	background: rgba(149, 208, 194, 0.4);
+}
+.table-5 table tr:first-child th {
+	background: #95D0C2;
+}
+
+.table-6 table th,
+.table-6 table th {
+	background: rgba(149, 208, 194, 0.4);
+}
+.table-6 table tr:first-child th {
+	background: #95D0C2;
+}
+
+.table-7 table caption {
+	background: #95D0C2;
+}
+.table-7 table th {
+	background: rgba(149, 208, 194, 0.4);
+}
+
+.table-8 table caption {
+	background-color: #95D0C2;
+}
+.table-8 table th {
+	background: #95D0C2;
+}
+.table-8 table tbody th {
+	background: rgba(149, 208, 194, 0.4);
+}
+
+.table-9 table th {
+	background: rgba(149, 208, 194, 0.4);
+}
+
+.table-10 table th {
+	background: rgba(149, 208, 194, 0.4);
+}
+.table-10 table thead th {
+	background: #95D0C2;
+}
+
+.table-11 table th {
+	background: rgba(149, 208, 194, 0.4);
+}
+.table-11 table thead th {
+	background: #95D0C2;
+}
+
+.table-12 table th {
+	background: rgba(149, 208, 194, 0.4);
+}
+.table-12 table thead th {
+	background: #95D0C2;
+}
+
+@media screen and (max-width: 767px) {
+	.table-4 table th {
+		background: rgba(149, 208, 194, 0.4);
+	}
+
+	.table-10 table th {
+		background: rgba(149, 208, 194, 0.4);
+	}
+}
+/* アコーディオン
+--------------------------------*/
+.acd-headline {
+	background: #95D0C2;
+}
+
+/* その他
+--------------------------------*/
+.icon-arw-m::before {
+	border-top-color: #95D0C2;
+}
+
+.icon-arw-s::before {
+	border-top-color: #95D0C2;
+}
+
+/* よくある質問
+--------------------------------*/
+.question-area .q-title {
+	color: #95D0C2;
+}
+
+.answer-area .a-title {
+	color: #95D0C2;
+}
+
+/* ニュース
+--------------------------------*/
+.news-list .img::before {
+	border-color: #95D0C2;
+}
+
+/* 高校生コーディネート
+--------------------------------*/
+.coordinate-list .img a::before {
+	background-color: #95D0C2;
+}
+
+/* セレクト
+--------------------------------*/
+.category-select .select_box .btn::before {
+	background-color: #95D0C2;
+}
+.category-select .select_box .btn::after {
+	background-image: url(../img/common/arrow_under.svg);
+}
+
+.p-index-buttons .p-txt::before {
+	background-color: #95D0C2;
+}
+
+/* 詳細ページ
+--------------------------------*/
+.post-info-date .tag {
+	background: #95D0C2;
+	border-color: #95D0C2;
+}
+
+/* 卒業生VOICE
+--------------------------------*/
+.anchor-link-voice li a {
+	background-color: #95D0C2;
+}
+
+.anchor-link-voice li a::after {
+	background-image: url(../img/common/icon_anchor.svg);
+}
+
+/* コラム
+--------------------------------*/
+.post-column-contents h3 {
+	background: #95D0C2;
+	-webkit-box-shadow: 0px 0px 0px 5px #95D0C2;
+	        box-shadow: 0px 0px 0px 5px #95D0C2;
+	color: #454545;
+}
+.post-column-contents h3::after {
+	border-color: #95D0C2 #fff #95D0C2;
+}
+
+/* breadcrumb
+--------------------------------*/
+.sec_breadcrumb .list li {
+	color: #95D0C2;
+}
+
+/* お問い合わせ
+--------------------------------*/
+.sec_form .box_form .flow .step {
+	color: #191919;
+	background: #CAE7E0;
+}
+
+.sec_form .box_form .flow .step::before {
+	border-color: transparent;
+	border-top-color: #95D0C2;
+}
+
+.sec_form .box_form .input dt::before {
+	background: #95D0C2;
+}
+
+.sec_form .box_form .note dt::before {
+	background: #95D0C2;
+}
+
+.sec_form .box_form .submit .btn_blue {
+	background: #95D0C2;
+}

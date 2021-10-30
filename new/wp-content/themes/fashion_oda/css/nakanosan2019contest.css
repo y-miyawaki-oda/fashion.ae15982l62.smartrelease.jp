@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+/* sec_ttl
+--------------------------------*/
+.sec_ttl_bg.nakanosan2019contest::after{
+	background-image: url(../img/nakanosan2019contest/ttl_bg.jpg);
+}
+
+/* intro
+--------------------------------*/
+.sec_intro .txt+.txt{
+	margin-top: 10px;
+}
+@media screen and (max-width: 767px) {
+	.sec_intro .txt+.txt{
+		margin-top: 4%;
+	}
+}
+
+/* result
+--------------------------------*/
+.sec_result .txt{
+	text-align: center;
+}
+.sec_result .txt+.ttl_green_line{
+	margin-top: 60px;
+}
+.sec_result .ttl{
+	margin-top: 40px;
+}
+.sec_result .dl+.dl{
+	margin-top: 80px;
+}
+.sec_result .img{
+	text-align: center;
+	margin-top: 40px;
+}
+.sec_result .note{
+	margin-top: 60px;
+}
+@media screen and (max-width: 767px) {
+	.sec_result .txt{
+		text-align: left;
+	}
+	.sec_result .txt+.ttl_green_line{
+		margin-top: 16%;
+	}
+	.sec_result .ttl{
+		margin-top: 8%;
+	}
+	.sec_result .dl+.dl{
+		margin-top: 12%;
+	}
+	.sec_result .img{
+		width: 87%;
+		margin: 6% auto 0;
+	}
+	.sec_result .note{
+		margin-top: 11%;
+	}
+}
+
+/* wish
+--------------------------------*/
+.sec_wish .txt{
+	text-align: center;
+}
+.sec_wish .img{
+	text-align: center;
+	margin-top: 40px;
+}
+.sec_wish dl dt{
+	font-size: 2.2rem;
+	font-weight: 700;
+	margin-top: 40px;
+}
+.sec_wish dl dd .list_dot{
+	margin-left: 1em;
+}
+.sec_wish dl dd .list_num li,
+.sec_wish dl dd .list_dot li{
+	padding-left: 1em;
+	text-indent: -1em;
+}
+.sec_wish dl dd .list_num li+li{
+	margin-top: 40px;
+}
+.sec_wish dl dd .list_dot li .dot{
+	font-size: 1rem;
+	margin-right: 0.4em;
+}
+@media screen and (max-width: 767px) {
+	.sec_wish .txt{
+		text-align: center;
+	}
+	.sec_wish .img{
+		text-align: center;
+		width: 87%;
+		margin: 6% auto 0;
+	}
+	.sec_wish dl dt{
+		font-size: 4.2vw;
+		margin-top: 11%;
+		margin-bottom: 2%;
+	}
+	.sec_wish dl dd .list_num li,
+	.sec_wish dl dd .list_num li+li{
+		margin-top: 4%;
+	}
+	.sec_wish dl dd .list_dot li .dot{
+		font-size: .7em;
+		margin-right: 0.4em;
+	}
+}
+
+/* about
+--------------------------------*/
+.sec_about .txt{
+	margin-top: 40px;
+}
+.sec_about .img{
+	text-align: center;
+}
+.sec_about dl dt{
+	font-size: 2.2rem;
+	font-weight: 700;
+	margin-top: 40px;
+}
+.sec_about dl dd a{
+	color: #95D0C2;
+	text-decoration: underline;
+}
+@media screen and (max-width: 767px) {
+	.sec_about .txt{
+		margin-top: 6%;
+	}
+	.sec_about .img{
+		width: 87%;
+		margin: 6% auto 0;
+	}
+	.sec_about dl dt{
+		font-size: 4.2vw;
+		margin-top: 11%;
+		margin-bottom: 2%;
+	}
+}
+

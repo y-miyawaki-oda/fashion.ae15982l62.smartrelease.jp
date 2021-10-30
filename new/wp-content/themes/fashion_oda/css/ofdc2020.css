@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/* sec_ttl
+--------------------------------*/
+.sec_ttl_bg.ofdc2020::after{
+	background-image: url(../img/ofdc2020/ttl_bg.jpg);
+}
+
+
+/* ofdc
+--------------------------------*/
+.sec_ofdc .txt{
+	text-align: center;
+}
+.sec_ofdc .flex{
+	margin-top: 40px;
+}
+.sec_ofdc .img{
+	text-align: center;
+}
+.sec_ofdc .cnt .big{
+	font-size: 1.8rem;
+}
+.sec_ofdc .cnt p+p{
+	border-top: 1px dotted #A2A2A2;
+	margin-top: 35px;
+	padding-top: 35px;
+}
+@media screen and (max-width: 767px) {
+	.sec_ofdc{
+		padding-top: 0;
+	}
+	.sec_ofdc .txt{
+		text-align: left;
+	}
+	.sec_ofdc .flex{
+		margin-top: 4%;
+	}
+	.sec_ofdc .txt+.img{
+		margin-top: 4%;
+	}
+	.sec_ofdc .cnt{
+		margin-top: 4%;
+	}
+	.sec_ofdc .cnt .big{
+		font-size: 3.2vw;
+	}
+	.sec_ofdc .cnt p+p{
+		margin-top: 12%;
+		padding-top: 12%;
+	}
+}
+
+/* works
+--------------------------------*/
+.sec_works{
+	padding-top: 20px;
+}
+@media screen and (max-width: 767px) {
+	.sec_works{
+		padding-top: 0;
+	}
+}
